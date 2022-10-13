@@ -1,0 +1,25 @@
+.galeria-container{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid rgb(53, 53, 53, 0.427);
+}
+
+.imagenes{
+    background-color: rgb(213, 213, 213);
+    width: 80%;
+    height:200px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagen{
+    background-color: brown;
+    width: 30%;
+    height: 100%;
+}
