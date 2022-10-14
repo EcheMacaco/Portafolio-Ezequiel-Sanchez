@@ -2,17 +2,19 @@
     display: flex;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-    height: 70vh;
+    height: 400px;
     padding: 100px 0 100px 0;
     flex-direction: row;
     border-top:  2px solid rgba(53, 53, 53, 0.427);
+    overflow: hidden;
 }
 
 .about-desc{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 55%;
+    min-width: 55%;
+    max-height: 30%;
     padding: 0 100px 0 100px;
 }
 
@@ -28,6 +30,7 @@
 
 
 .img {
+    
     border-radius: 50%;    
      display: flex;
     align-self: center;

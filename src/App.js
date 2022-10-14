@@ -3,7 +3,7 @@ import "./App.css";
 import Cover from "./Components/cover/Cover";
 import Navbar from "./Components/navbar/Navbar";
 import About from "./Components/about/About";
-import Galeria from "./Components/slider/Galeria";
+import Slider from "./Components/slider/Slider";
 
 
 
@@ -27,7 +27,7 @@ function App() {
   <Navbar isScrolling={scroll} />
  <Cover/>
  <About/>
- <Galeria/>
+ <Slider/>
 </div>
   );
 }
