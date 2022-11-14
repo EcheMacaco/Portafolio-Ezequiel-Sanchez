@@ -4,6 +4,8 @@ import Cover from "./Components/cover/Cover";
 import Navbar from "./Components/navbar/Navbar";
 import About from "./Components/about/About";
 import Slider from "./Components/slider/Slider";
+import Projects from "./Components/projects/Projects";
+import Contact from "./Components/contact/Contact";
 
 
 
@@ -28,6 +30,8 @@ function App() {
  <Cover/>
  <About/>
  <Slider/>
+ <Projects/>
+ <Contact/>
 </div>
   );
 }

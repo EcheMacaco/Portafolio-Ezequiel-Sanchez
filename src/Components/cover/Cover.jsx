@@ -8,10 +8,13 @@ const Cover = () => {
     <div className='cover-container'>
 <video className='video' src={coverVideo} autoPlay loop muted/>
 <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:2}}  viewport={{once:false}}>
-  <h1>
+  <div className='text'>
+      <h1>
     Ezequiel Sanchez Pais
 </h1>
 <p> Desarrollador Web Front-End Junior</p>
+  </div>
+
 </motion.div>
 
     </div>

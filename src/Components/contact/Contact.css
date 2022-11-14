@@ -1,0 +1,30 @@
+.contact-container{
+    width:100%;
+    height: fit-content;
+    object-fit: contain;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    background: -webkit-linear-gradient(to bottom, #1f00bb,#000000);
+    background: linear-gradient(to bottom,  #1f00bb,#000000);
+    
+} 
+.h2-c{
+    
+    height: 40px;
+    width: 100%;
+display: flex;
+justify-content: center;
+margin-top: 10%;
+    
+}
+
+p{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+}
