@@ -4,12 +4,33 @@
     object-fit: contain;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
     color: white;
     background: -webkit-linear-gradient(to bottom, #1f00bb,#000000);
     background: linear-gradient(to bottom,  #1f00bb,#000000);
     
 } 
+.div-contact{
+
+    color:rgb(255, 255, 255);
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+    
+}
+.div-contact a{
+    text-decoration: none;
+    color: #EEDDE0;
+    text-shadow: 0 0px 30px rgb(84, 84, 84); 
+    
+}
+
 .h2-c{
     
     height: 40px;
@@ -21,10 +42,10 @@ margin-top: 10%;
 }
 
 p{
-    width: 600px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    color: white;
+    width: 100%;
+    height: auto;
+    margin-bottom:5px;
+    color: #EEDDE0;
+ text-shadow:  0 0px 30px rgb(84, 84, 84); 
+   
 }
