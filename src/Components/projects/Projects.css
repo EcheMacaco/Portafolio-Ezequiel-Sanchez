@@ -1,45 +1,53 @@
-.project-container{
-    width:100%;
-    height: fit-content;
-    object-fit: contain;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #1f00bb;
-    justify-content: center;
-    
+.project-container {
+  width: 100%;
+  height: fit-content;
+  object-fit: contain;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1f00bb;
+  justify-content: center;
+}
+.project-container[data-on="true"] {
+  
+  background: -webkit-linear-gradient(
+    to bottom,
+    #1f00bb7f,
+    rgb(0, 0, 0)
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #1f00bb7f,
+    rgb(255, 255, 255)
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  justify-content: center;
 }
 
-
-.h2-p{
-    background-color:  #180673;
-    box-shadow: 11px 0px 10px 20px  #180673;
-    height: 10px;
-    width: 100%;
-    margin-bottom: 40px;
-display: flex;
-justify-content: center;
-align-items: center;
-color: white;
-
-
+.proyectos {
+  height: 10px;
+  width: 100%;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  user-select: none;
 }
+.proyectos[data-on="true"]{
+    color: rgb(0, 0, 0);
+  }
 
-
-.project-box{
-   
-    
-   background-color: pink;
-    
-    width: 400px;
-    height: 210px;
-    padding: 10px;
-    margin: 10px;
-    background-color: rgb(0, 0, 0);
-    color: white;
-
-
+.project-box {
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  height: 210px;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  user-select: none;
 }
-.project-image{
-    border: 1px solid;
-    max-width: 100%;
-} 
+.project-image {
+  border: 1px solid;
+  max-width: 100%;
+  user-select: none;
+}

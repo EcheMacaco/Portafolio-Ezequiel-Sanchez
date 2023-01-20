@@ -1,47 +1,68 @@
-.about-container{
-    display: flex;
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    height: fit-content;
-    width: 100%;
-    margin-right: 5%;
-    padding: 10% 0 10% 0;
-    flex-direction: row;
-    border-top:  2px solid rgba(84, 84, 84, 0.387);
-    align-items: center;
-    justify-content: center;
-    
-    
+.about-container {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  height: fit-content;
+  width: 100%;
+  margin-right: 5%;
+  padding: 10% 0 10% 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.about-container[data-on="true"] {
+  background: -webkit-linear-gradient(
+    to bottom,
+    #1f00bb7f,
+    rgb(0, 0, 0)
+  );
+  background: linear-gradient(
+    to bottom,
+    #1f00bb7f,
+    rgb(255, 255, 255)
+  );
 }
 
-.about-desc p{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-    max-height: 50%;
-    line-height: 1.5;
+.about-desc p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  max-height: 50%;
+  line-height: 1.5;
+  user-select: none;
+  font-weight: bold;
 }
 
-.about-desc h3{
-    font-size: 32px;
+.about-desc[data-on="true"] p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  max-height: 50%;
+  line-height: 1.5;
+  user-select: none;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
 }
 
 .img {
-    height: 80%;
-    width: 80%;
-    border-radius: 50%;    
-    margin-left: 5%;
-    display: flex;
-    align-self: center;
-    box-shadow: 2px 2px 2px 2px rgb(53, 53, 53, 0.427);
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+  margin-left: 10%;
+  display: flex;
+  align-self: center;
+  box-shadow: 2px 2px 2px 2px rgb(53, 53, 53, 0.427);
+  user-select: none;
 }
 
-/* @media screen and (max-width:940px){
-    .img {
-    height: 50px;
-    
-    
+@media screen and (max-width: 800px) {
+  .about-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
- } */

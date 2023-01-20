@@ -4,11 +4,24 @@ import video1 from "../../Media/JuegoMastermind.mp4";
 import video2 from "../../Media/Calculadora.mp4";
 import video3 from "../../Media/AppTareas.mp4";
 import video4 from "../../Media/JuegoMayorMenor.mp4";
+import { motion } from "framer-motion";
 
-const Projects = () => {
+const Projects = ({ on }) => {
   return (
-    <div className="project-container">
-      <h2 className="h2-p">PROYECTOS</h2>
+    <div className="project-container" data-on={on}>
+      <motion.div
+
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+        viewport={{ once: false }}
+      className="proyectos" data-on={on}
+      >
+        <h1 >PROYECTOS</h1>
+        </motion.div>
+      
+
+      
       <div className="project-box">
         <video
           className="project-image"
@@ -40,6 +53,7 @@ const Projects = () => {
         />
         Juego Mayor/Menor
       </div>
+      
     </div>
   );
 };

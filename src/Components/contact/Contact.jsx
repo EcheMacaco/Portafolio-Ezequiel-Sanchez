@@ -1,9 +1,10 @@
 import React from "react";
 import "./Contact.css";
 
-const Contact = () => {
+
+const Contact = ({on}) => {
   return (
-    <div className="contact-container">
+    <div className="contact-container" data-on={on}>
       <h2 className="h2-c">CONTACTO</h2>
       <div className="div-contact">
         <a href="https://github.com/EcheMacaco" alt="github">
