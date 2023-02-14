@@ -8,18 +8,12 @@
   justify-content: center;
 }
 .project-container[data-on="true"] {
-  
-  background: -webkit-linear-gradient(
-    to bottom,
-    #1f00bb7f,
-    rgb(0, 0, 0)
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    #1f00bb7f,
-    rgb(255, 255, 255)
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  justify-content: center;
+  height: 100vh;
+  background:url("../../Media/panal.jpg");
+  background-repeat: repeat-y;
+  background-position: fixed;
+  background-size: 100%;
+  box-shadow: inset 0px 0px 100px 50px rgb(255, 255, 255);
 }
 
 .proyectos {

@@ -1,3 +1,7 @@
+html, body {
+    max-width: 100% ;
+    overflow-x: hidden ;
+}
 * {
   margin: 0;
   padding: 0;
@@ -14,17 +18,19 @@
   padding: 10px;
 }
 .switch-container[data-on="true"] {
-    background: -webkit-linear-gradient(to bottom, rgb(255, 255, 255), #ffffff);  
-    background: linear-gradient(to bottom,rgb(0, 0, 0), #1f00bb7f); 
+    background: -webkit-linear-gradient(to bottom,  rgba(255, 255, 255, 0.692),  rgba(53, 53, 53, 0.872));  
+    background: linear-gradient(to bottom,rgb(0, 0, 0),  rgb(255, 255, 255)); 
     border-top:  2px solid rgb(0, 0, 0);
+    padding: 10px;
    }
 .switch {
   width: 40px;
-  height: 25px;
-  background-color: rgba(255, 255, 255, 0.4);
+  height: 28px;
+  background-color: #8b8b8b;
   display: flex;
   justify-content: flex-start;
   border-radius: 50px;
+  border: 1px solid rgb(83, 83, 83);
   padding: 2.5px;
   cursor: pointer;
 }

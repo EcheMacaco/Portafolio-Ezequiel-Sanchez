@@ -1,61 +1,65 @@
-.contact-container{
-    width:100%;
-    height: fit-content;
-    object-fit: contain;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    background: -webkit-linear-gradient(to bottom, #1f00bb,#000000);
-    background: linear-gradient(to bottom,  #1f00bb,#000000);
-    
-} 
-.contact-container[data-on="true"]{
-    color: rgb(0, 0, 0);
-    background: -webkit-linear-gradient(to bottom, #ffffff,#1f00bb);
-    background: linear-gradient(to bottom,  #ffffff,#1f00bb);
-
+.contact-container {
+  width: 100%;
+  height: fit-content;
+  object-fit: contain;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  background: -webkit-linear-gradient(to bottom, #1f00bb, #000000);
+  background: linear-gradient(to bottom, #1f00bb, #000000);
 }
-.div-contact{
-
-    color:rgb(255, 255, 255);
-    margin: 20px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    line-height: 1.5;
-    user-select: none;
-    
+.contact-container[data-on="true"] {
+  color: rgb(0, 0, 0);
+  background: url("../../Media/panal.jpg");
+  background-position: fixed;
+  background-size: 100%;
 }
-.div-contact a{
+
+.div-contact {
+  color: rgb(255, 255, 255);
+  margin: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.5;
+  user-select: none;
+}
+.div-contact a[data-on="true"] {
+    color: #000000;
+  text-shadow: 0 0px 30px rgb(255, 255, 255);
+  font-weight: bold;
+}
+.div-contact a {
     text-decoration: none;
-    color: #EEDDE0;
-    text-shadow: 0 0px 30px rgb(84, 84, 84); 
+    color: #ffffff;
+    text-shadow: 0 0px 30px rgb(84, 84, 84);
     user-select: none;
-    
+  }
+
+.h2-c {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  user-select: none;
 }
 
-.h2-c{
-    
-    height: 40px;
-    width: 100%;
-display: flex;
-justify-content: center;
-margin-top: 10%;
-user-select: none;
-    
+p {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5px;
+  color: #eedde0;
+  text-shadow: 0 0px 30px rgb(84, 84, 84);
+  user-select: none;
 }
-
-p{
-    width: 100%;
-    height: auto;
-    margin-bottom:5px;
-    color: #EEDDE0;
- text-shadow:  0 0px 30px rgb(84, 84, 84); 
- user-select: none;
-   
+.div-contact p[data-on="true"] {
+    color: #000000;
+  text-shadow: 0 0px 30px rgb(255, 255, 255);
+  font-weight: bold;
 }

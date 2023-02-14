@@ -1,9 +1,10 @@
 import React from "react";
 import "./Projects.css";
-import video1 from "../../Media/JuegoMastermind.mp4";
+import video1 from "../../Media/JuegoMasterMind.mp4";
 import video2 from "../../Media/Calculadora.mp4";
 import video3 from "../../Media/AppTareas.mp4";
 import video4 from "../../Media/JuegoMayorMenor.mp4";
+import video5 from "../../Media/Clima.mp4";
 import { motion } from "framer-motion";
 
 const Projects = ({ on }) => {
@@ -19,10 +20,7 @@ const Projects = ({ on }) => {
       >
         <h1 >PROYECTOS</h1>
         </motion.div>
-      
-
-      
-      <div className="project-box">
+        <div className="project-box">
         <video
           className="project-image"
           controls
@@ -52,6 +50,15 @@ const Projects = ({ on }) => {
           alt="Juego Mayor Menor"
         />
         Juego Mayor/Menor
+      </div>
+      <div className="project-box">
+        <video
+          className="project-image"
+          controls
+          src={video5}
+          alt="App Clima"
+        />
+        App Clima
       </div>
       
     </div>
