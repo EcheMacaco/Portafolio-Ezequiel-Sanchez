@@ -9,7 +9,7 @@ import imagen8 from "../../Media/8.png";
 import imagen9 from "../../Media/9.png";
 import imagen10 from "../../Media/10.png";
 
-//imagenes de freepng.es
+//imagenes de logos sin fondo para slider
 
 const imagenes = [
   imagen1,
