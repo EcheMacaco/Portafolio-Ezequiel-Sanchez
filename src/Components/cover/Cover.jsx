@@ -12,7 +12,7 @@ const Cover = () => {
       <h1>
     Ezequiel Sanchez Pais
 </h1>
-<p> Desarrollador Web Front-End Junior</p>
+<p> Desarrollador Web</p>
   </div>
 
 </motion.div>
