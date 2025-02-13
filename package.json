@@ -2,6 +2,7 @@
   "name": "portafolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://echemacaco.github.io/Portafolio-Ezequiel-Sanchez/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -15,7 +16,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "deploy": "gh-pages -d .",
+    "predeploy":"npm run bild",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -51,5 +53,7 @@
   "bugs": {
     "url": "https://github.com/EcheMacaco/Portafolio-Ezequiel-Sanchez/issues"
   },
-  "homepage": "https://github.com/EcheMacaco/Portafolio-Ezequiel-Sanchez#readme"
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
