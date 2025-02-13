@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Portafolio-Ezequiel-Sanchez/static/css/main.d2702f2c.css",
+    "main.js": "/Portafolio-Ezequiel-Sanchez/static/js/main.2de3bb3a.js",
+    "static/media/coverVideo.mp4": "/Portafolio-Ezequiel-Sanchez/static/media/coverVideo.2c2a1901bc7829bd5131.mp4",
+    "static/media/Calculadora.mp4": "/Portafolio-Ezequiel-Sanchez/static/media/Calculadora.6c2adda119820c62a646.mp4",
+    "static/media/Clima.mp4": "/Portafolio-Ezequiel-Sanchez/static/media/Clima.9820478c60ed70f0553c.mp4",
+    "static/media/JuegoMayorMenor.mp4": "/Portafolio-Ezequiel-Sanchez/static/media/JuegoMayorMenor.d29d086807eda8faaa9a.mp4",
+    "static/media/JuegoMastermind.mp4": "/Portafolio-Ezequiel-Sanchez/static/media/JuegoMastermind.c28c4603bf42339f73d9.mp4",
+    "static/media/AppTareas.mp4": "/Portafolio-Ezequiel-Sanchez/static/media/AppTareas.a8ea57c54a6b2b03f673.mp4",
+    "static/media/panal.jpg": "/Portafolio-Ezequiel-Sanchez/static/media/panal.7446ab214ea6a1330c69.jpg",
+    "static/media/Ezequiel.jpeg": "/Portafolio-Ezequiel-Sanchez/static/media/Ezequiel.4714603c0b5bc7907e89.jpeg",
+    "static/media/7.png": "/Portafolio-Ezequiel-Sanchez/static/media/7.6f19fa1b1075937fdc7c.png",
+    "static/media/8.png": "/Portafolio-Ezequiel-Sanchez/static/media/8.d28c493eb99d5f35a5a5.png",
+    "static/media/10.png": "/Portafolio-Ezequiel-Sanchez/static/media/10.fd7acf725dd969b8f713.png",
+    "static/media/5.png": "/Portafolio-Ezequiel-Sanchez/static/media/5.9523d5262d03b01877ee.png",
+    "static/media/3.png": "/Portafolio-Ezequiel-Sanchez/static/media/3.166865dacb77d214f485.png",
+    "static/media/2.png": "/Portafolio-Ezequiel-Sanchez/static/media/2.7f03bab25789e1b15d38.png",
+    "static/media/9.png": "/Portafolio-Ezequiel-Sanchez/static/media/9.b090908ccadda11ee19c.png",
+    "static/media/4.png": "/Portafolio-Ezequiel-Sanchez/static/media/4.cd4ab68456d5875b788e.png",
+    "static/media/6.png": "/Portafolio-Ezequiel-Sanchez/static/media/6.257e6178b0dce1bce576.png",
+    "index.html": "/Portafolio-Ezequiel-Sanchez/index.html",
+    "main.d2702f2c.css.map": "/Portafolio-Ezequiel-Sanchez/static/css/main.d2702f2c.css.map",
+    "main.2de3bb3a.js.map": "/Portafolio-Ezequiel-Sanchez/static/js/main.2de3bb3a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2702f2c.css",
+    "static/js/main.2de3bb3a.js"
+  ]
+}
