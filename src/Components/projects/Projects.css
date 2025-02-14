@@ -6,9 +6,11 @@
   flex-wrap: wrap;
   background-color: #1f00bb;
   justify-content: center;
+  padding: 20px;
 }
 .project-container[data-on="true"] {
-  height: 100vh;
+  width: 100%;
+  height: fit-content;
   background:url("../../Media/panal.jpg");
   background-repeat: repeat-y;
   background-position: fixed;
@@ -45,3 +47,4 @@
   max-width: 100%;
   user-select: none;
 }
+

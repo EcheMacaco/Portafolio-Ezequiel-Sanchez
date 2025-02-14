@@ -1,4 +1,4 @@
-.contact-container {
+ .contact-container {
   width: 100%;
   height: fit-content;
   object-fit: contain;
@@ -63,3 +63,4 @@ p {
   text-shadow: 0 0px 30px rgb(255, 255, 255);
   font-weight: bold;
 }
+  
