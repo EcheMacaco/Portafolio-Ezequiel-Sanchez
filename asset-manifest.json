@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portafolio-Ezequiel-Sanchez/static/css/main.d2702f2c.css",
-    "main.js": "/Portafolio-Ezequiel-Sanchez/static/js/main.2de3bb3a.js",
+    "main.css": "/Portafolio-Ezequiel-Sanchez/static/css/main.451db118.css",
+    "main.js": "/Portafolio-Ezequiel-Sanchez/static/js/main.5dedf525.js",
     "static/media/coverVideo.mp4": "/Portafolio-Ezequiel-Sanchez/static/media/coverVideo.2c2a1901bc7829bd5131.mp4",
     "static/media/Calculadora.mp4": "/Portafolio-Ezequiel-Sanchez/static/media/Calculadora.6c2adda119820c62a646.mp4",
     "static/media/Clima.mp4": "/Portafolio-Ezequiel-Sanchez/static/media/Clima.9820478c60ed70f0553c.mp4",
@@ -20,11 +20,11 @@
     "static/media/4.png": "/Portafolio-Ezequiel-Sanchez/static/media/4.cd4ab68456d5875b788e.png",
     "static/media/6.png": "/Portafolio-Ezequiel-Sanchez/static/media/6.257e6178b0dce1bce576.png",
     "index.html": "/Portafolio-Ezequiel-Sanchez/index.html",
-    "main.d2702f2c.css.map": "/Portafolio-Ezequiel-Sanchez/static/css/main.d2702f2c.css.map",
-    "main.2de3bb3a.js.map": "/Portafolio-Ezequiel-Sanchez/static/js/main.2de3bb3a.js.map"
+    "main.451db118.css.map": "/Portafolio-Ezequiel-Sanchez/static/css/main.451db118.css.map",
+    "main.5dedf525.js.map": "/Portafolio-Ezequiel-Sanchez/static/js/main.5dedf525.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2702f2c.css",
-    "static/js/main.2de3bb3a.js"
+    "static/css/main.451db118.css",
+    "static/js/main.5dedf525.js"
   ]
 }
