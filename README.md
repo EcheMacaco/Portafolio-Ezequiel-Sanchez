@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Portafolio de Ezequiel Sánchez Pais
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es un portafolio personal desarrollado en React, creado con Create React App. Incluye animaciones con Framer Motion, videos de proyectos, y despliegue automático en GitHub Pages.
 
-## Available Scripts
+## Requisitos previos
 
-In the project directory, you can run:
+- Node.js >= 14.x
+- npm >= 6.x
 
-### `npm start`
+## Instalación rápida
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/EcheMacaco/Portafolio-Ezequiel-Sanchez.git
+   cd Portafolio-Ezequiel-Sanchez
+   ```
+2. Ejecuta el script de instalación:
+   ```bash
+   bash setup.sh
+   ```
+   El script instalará dependencias y te preguntará si deseas actualizar las versiones si hay paquetes desactualizados.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Scripts disponibles
 
-### `npm test`
+- `npm start` — Inicia la app en modo desarrollo ([http://localhost:3000](http://localhost:3000)).
+- `npm run build` — Genera la versión optimizada para producción en la carpeta `build`.
+- `npm run test` — Ejecuta los tests (si existen archivos de prueba en el proyecto). Este script es estándar en proyectos creados con Create React App.
+- `npm run deploy` — Despliega la app en GitHub Pages (ejecuta primero `npm run build`).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Despliegue
 
-### `npm run build`
+El desarrollo debe realizarse siempre en la rama principal (main o master). La rama `gh-pages` es utilizada únicamente para el despliegue automático generado por el comando `npm run deploy`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+El despliegue se realiza automáticamente en la rama `gh-pages` usando el paquete `gh-pages`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Ejecuta:
+   ```bash
+   npm run build
+   npm run deploy
+   ```
+2. La app estará disponible en: https://echemacaco.github.io/Portafolio-Ezequiel-Sanchez/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Estructura del proyecto
 
-### `npm run eject`
+- `/src` — Código fuente de la app React
+  - `/Components` — Componentes reutilizables de la app
+    - `/about` — Sección de información personal
+    - `/contact` — Sección de contacto
+    - `/cover` — Portada o presentación principal
+    - `/navbar` — Barra de navegación
+    - `/projects` — Sección de proyectos realizados
+    - `/slider` — Carrusel o slider de contenido
+  - `/Media` — Imágenes y videos utilizados en la app
+- `/public` — Archivos públicos y estáticos
+- `/build` — Carpeta generada para producción
+- `setup.sh` — Script de instalación automatizada
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Dependencias principales
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- React
+- Framer Motion
+- React Player
+- gh-pages (para despliegue)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Notas
 
-## Learn More
+- El archivo `.gitignore` ya excluye node_modules, archivos de entorno y carpetas de build.
+- Puedes personalizar la información de contacto y los proyectos desde los componentes en `/src/Components`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contacto
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Puedes contactarme a través de:
 
-### Code Splitting
+- Email: eche_@hotmail.com
+- LinkedIn: https://www.linkedin.com/in/ezequiel-sanchez-pais/
+- GitHub: https://github.com/EcheMacaco
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Desarrollado por Ezequiel Sánchez Pais.
